@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="statusview">
+        <attr name="sv_imgWidth" format="dimension" />
+        <attr name="sv_imgHeight" format="dimension" />
+        <attr name="sv_textSize" format="dimension"/>
+        <attr name="sv_background" format="color"/>
+        <attr name="sv_textMarginLeft" format="color"/>
+        <attr name="sv_textMarginRight" format="color"/>
+    </declare-styleable>
+</resources>

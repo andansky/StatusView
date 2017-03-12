@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <andan.statusview.StatusView
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:id="@+id/statusview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sv_textSize="14sp"
+        app:sv_imgWidth="20dp"
+        app:sv_imgHeight="20dp"
+        app:sv_background="#D3D3D3"/>
+    <andan.statusview.StatusView
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:id="@+id/statusview2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sv_textSize="14sp"
+        app:sv_imgWidth="20dp"
+        app:sv_background="#aaddD3"
+        app:sv_imgHeight="20dp"/>
+    <andan.statusview.StatusView
+        android:layout_weight="1"
+        android:id="@+id/statusview3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sv_textSize="30sp"
+        app:sv_background="#11cccc"/>
+</LinearLayout>
