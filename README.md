@@ -3,7 +3,7 @@
 # Usage
 ###import   
     compile 'com.andan:statusview:1.0.0'   
-xlm:   
+xml:   
 ```
         <andan.statusview.StatusView
         android:layout_weight="1"
@@ -32,13 +32,12 @@ xlm:  
         
         //如果只想改变文字颜色不添加图片,这个不用添加xml，直接传入自己的TextView即可
         new StatusText(MainActivity.this).setBeanList(list).with(TextView,"1");
-```    
-可配置的选项
-```
-        <attr name="sv_imgWidth" format="dimension" />    
-        <attr name="sv_imgHeight" format="dimension" />
-        <attr name="sv_textSize" format="dimension"/>
-        <attr name="sv_background" format="color"/>
-        <attr name="sv_textMarginLeft" format="color"/>
-        <attr name="sv_textMarginRight" format="color"/>
-```
+```    
+####可配置的选项    
+
+        sv_imgWidth
+        sv_imgHeight
+        sv_textSize
+        sv_background
+        sv_textMarginLeft
+        sv_textMarginRight
